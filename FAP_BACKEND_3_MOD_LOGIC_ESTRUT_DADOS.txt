@@ -1,0 +1,72 @@
+
+/*
+Instruções do projeto
+Considere o array [3, 7, 9, 1, 0].
+
+O primeiro elemento inserido foi o 3, o segundo foi o 7 e assim por diante, seguindo a ordem.
+
+Levando em conta as três estruturas de dados (fila, lista e pilha) e as suas regras de operações, qual seria a sequência dos números removidos em cada uma delas para esvaziá-las completamente utilizando o array mencionado?
+
+*/
+// densenvolvido no programiz Javascript por MarcosLemos-dev
+console.log("exemplificando a remoção de intens na estrutura de dados lista, fila e pilha \n" );
+/*parte do codigo dedicada a estrutura de dado lista*/
+var lista = [3, 7, 9, 0, 1];
+lista.shift();
+console.log("usando o metodo shift na lista ",lista);
+lista.shift();
+console.log("usando o metodo shift na lista ",lista);
+lista.shift();
+console.log("usando o metodo shift na lista ",lista);
+lista.shift();
+console.log("usando o metodo shift na lista ",lista);
+lista.shift();
+console.log("usando o metodo shift na lista ",lista);
+console.log("lista terminou no seguinte formato: ",lista);
+console.log('**********************************************');
+/*parte do codigo dedicada a estrutura de dado fila*/
+var fila = [];
+fila.push(3);
+fila.push(7);
+fila.push(9);
+fila.push(1);
+fila.push(0);
+console.log("fila possui o formato: ",fila);
+fila.shift();/*e o método shift() que retira o primeiro elemento de um array.*/
+console.log("usando o metodo shift na fila ",fila);
+fila.shift();
+console.log("usando o metodo shift na fila ",fila);;
+fila.shift();
+console.log("usando o metodo shift na fila ",fila);
+fila.shift();
+console.log("usando o metodo shift na fila  ",fila);
+fila.shift();
+//fila.push(4);/*métodos de array push() que acrescenta um elemento no final de uma array, aumentando assim o seu tamanho*/
+console.log(fila);
+console.log("a fila terminou no seguinte formato: ",fila);
+console.log('**********************************************');
+/* esta parte é dedicada a pilha em javascript*/
+var pilha = [];
+pilha.push(3);
+pilha.push(7);
+pilha.push(9);
+pilha.push(1);
+pilha.push(0);
+
+console.log('a pilha possui o seguinte formato: ',pilha);
+
+pilha.pop();//o metodo pop retira o último elemento de um array, modificando assim seu tamanho.
+console.log("usando o metodo pop na pilha ",pilha);
+pilha.pop();
+console.log("usando o metodo pop na pilha ",pilha);
+pilha.pop();
+
+
+console.log("usando o metodo pop na pilha ",pilha);
+pilha.pop();
+console.log("usando o metodo pop na pilha ",pilha);
+pilha.pop();
+console.log("usando o metodo pop na pilha ",pilha);
+console.log("a pilha terminou no seguinte formato: ",pilha);
+console.log('**********************************************');
+console.log('fim dos exemplos');
